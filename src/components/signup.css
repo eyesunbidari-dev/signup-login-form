@@ -1,7 +1,6 @@
 .countainer{
     display: flex;
     justify-content: center;
-    background-color: aquamarine;
     min-height: 100vh;
     align-items: center;
 }
@@ -13,12 +12,15 @@
     border-radius: 20px;
     height: fit-content;
     background-color: azure;
+    box-shadow: -1px 0px 6px 4px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 0px 6px 4px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 0px 6px 4px rgba(0,0,0,0.75);
 }
 .header{
     text-align: left;
     margin-bottom: 40px;
     font-size: 1.8rem;
-    color: blueviolet;
+    color:blueviolet ;
 }
 .formfield{
     display: flex;
@@ -37,8 +39,12 @@
     height: 30px;
     border-radius: 5px;
     padding: 0px 10px;
-    border: 1px solid blueviolet;
+    border: 2px solid blueviolet;
     transition: all 0.2s ease-in;
+    box-shadow: 0px 8px 7px -5px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 8px 7px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 8px 7px -5px rgba(0,0,0,0.75);
+    
 }
 .uncompleted{
     width: 300px;
